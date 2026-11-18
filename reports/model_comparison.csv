@@ -1,0 +1,7 @@
+model,auc_mean,auc_std,recall_mean,recall_std,fit_time_s,noise,gap_from_best,tied_with_best
+Lazy (always good),0.5,0.0,0.0,0.0,0.0123,0.0,0.2899,False
+One stump,0.669,0.0379,0.0,0.0,0.0116,0.017,0.1209,False
+AdaBoost (50 stumps),0.7746,0.0456,0.4083,0.084,0.0941,0.0204,0.0153,True
+Gradient Boosting,0.779,0.0365,0.3958,0.0632,0.1926,0.0163,0.0109,True
+XGBoost,0.7886,0.0434,0.4583,0.0833,0.0443,0.0194,0.0013,True
+Random Forest (reference),0.7899,0.0324,0.3708,0.0761,0.423,0.0145,0.0,True
